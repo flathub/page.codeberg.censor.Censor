@@ -10,33 +10,8 @@
     "--device=dri",
     "--socket=wayland"
   ],
-  "cleanup": [
-    "/include",
-    "/lib/pkgconfig",
-    "/man",
-    "/share/doc",
-    "/share/gtk-doc",
-    "/share/man",
-    "/share/pkgconfig",
-    "*.la",
-    "*.a"
-  ],
   "modules": [
     "python3-pymupdf.json",
-    {
-      "name": "licenses-agpl",
-      "buildsystem": "simple",
-      "build-commands": [
-        "install -Dm644 agpl-3.0.txt /app/share/licenses/page.codeberg.censor.Censor/AGPL-3.0-only.txt"
-      ],
-      "sources": [
-        {
-          "type": "file",
-          "url": "https://www.gnu.org/licenses/agpl-3.0.txt",
-          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
-        }
-      ]
-    },
     {
       "name": "censor",
       "builddir": true,
@@ -45,8 +20,19 @@
         {
           "type": "git",
           "url": "https://codeberg.org/censor/Censor.git",
-          "tag": "v0.4.0",
-          "commit": "45748a39969acac473cadd8f0ab33b4a286dacfa"
+          "branch": "main"
+        }
+      ]
+    },
+    {
+      "name": "compileall",
+      "buildsystem": "simple",
+      "build-commands": [
+        "python -m compileall -q --invalidation-mode=unchecked-hash /app/share/censor /app/lib/python*"
+      ],
+      "sources": [
+        {
+          "commit": "c2b3f7ff8441daab9b283871d69ac507dbdc267c"
         }
       ]
     }

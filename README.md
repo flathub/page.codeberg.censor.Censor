@@ -33,12 +33,30 @@ translations, commit messages, releases, etc.
 Support Censor indirectly by [donating to Codeberg][Codeberg Donate]. Thanks to
 [Codeberg][] for providing the git hosting platform with continuous integration
 and all the nice features of [Forgejo][] and [Weblate][] needed for the
-development of Censor.
+development of Censor. Further, I want to express my gratitude to [GNOME][] and
+[Flathub][] for providing resources needed for building and distributing test
+and release packages.
 
 [Codeberg Donate]: https://donate.codeberg.org
 [Codeberg]: https://codeberg.org/about
 [Forgejo]: https://forgejo.org
 [Weblate]: https://weblate.org
+[GNOME]: https://www.gnome.org/
+[Flathub]: https://flathub.org/
+
+## Testing
+
+Censor uses the [GNOME][] infrastructure to
+[build test flatpak bundles][gitlab-ci] for [pull requests][build-start]. Unit
+tests are implemented using the [pytest][] library. Thanks to [py-pdf][]
+contributors for providing [sample files][] for testing Censor’s functionality!
+
+[gitlab-ci]: https://codeberg.org/censor/Censor/src/branch/main/.gitlab-ci.yml
+[build-start]: https://codeberg.org/censor/Censor/src/branch/main/.forgejo/workflows/build-start.yml
+[checks]: https://codeberg.org/censor/Censor/src/branch/main/.forgejo/workflows/checks.yml
+[pytest]: https://pytest.org/
+[py-pdf]: https://py-pdf.github.io/
+[sample files]: https://github.com/py-pdf/sample-files
 
 ## Copying
 
