@@ -21,5 +21,8 @@
         "x86_64"
       ]
     }
+  ],
+  "cleanup": [
+    "/lib/python*/site-packages/pymupdf/mupdf-devel"
   ]
 }
