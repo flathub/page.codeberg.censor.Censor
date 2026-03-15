@@ -20,7 +20,7 @@
         {
           "type": "git",
           "url": "https://codeberg.org/censor/Censor.git",
-          "branch": "main"
+          "commit": "c2b3f7ff8441daab9b283871d69ac507dbdc267c"
         }
       ]
     },
@@ -29,11 +29,6 @@
       "buildsystem": "simple",
       "build-commands": [
         "python -m compileall -q --invalidation-mode=unchecked-hash /app/share/censor /app/lib/python*"
-      ],
-      "sources": [
-        {
-          "commit": "c2b3f7ff8441daab9b283871d69ac507dbdc267c"
-        }
       ]
     }
   ]
