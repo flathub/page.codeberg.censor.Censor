@@ -21,11 +21,11 @@ Get [Censor on Flathub][].
 ## Contributing
 
 Use [GNOME Builder][] to develop and build Censor. Localize Censor using
-[Codeberg Translate][]. See the [Censor Contributing Guide][] for information on
-translations, commit messages, releases, etc.
+[Codeberg Translate][]. See the [Censor Contributing Guide][Contribute] for
+information on translation, testing, commit messages, releases, etc.
 
 [GNOME Builder]: https://apps.gnome.org/Builder
-[Censor Contributing Guide]: https://codeberg.org/censor/Censor/src/branch/main/CONTRIBUTING.md
+[Contribute]: https://codeberg.org/censor/Censor/src/branch/main/CONTRIBUTING.md
 [Codeberg Translate]: https://translate.codeberg.org/engage/censor
 
 ## Donating
@@ -43,20 +43,6 @@ and release packages.
 [Weblate]: https://weblate.org
 [GNOME]: https://www.gnome.org/
 [Flathub]: https://flathub.org/
-
-## Testing
-
-Censor uses the [GNOME][] infrastructure to
-[build test flatpak bundles][gitlab-ci] for [pull requests][build-start]. Unit
-tests are implemented using the [pytest][] library. Thanks to [py-pdf][]
-contributors for providing [sample files][] for testing Censor’s functionality!
-
-[gitlab-ci]: https://codeberg.org/censor/Censor/src/branch/main/.gitlab-ci.yml
-[build-start]: https://codeberg.org/censor/Censor/src/branch/main/.forgejo/workflows/build-start.yml
-[checks]: https://codeberg.org/censor/Censor/src/branch/main/.forgejo/workflows/checks.yml
-[pytest]: https://pytest.org/
-[py-pdf]: https://py-pdf.github.io/
-[sample files]: https://github.com/py-pdf/sample-files
 
 ## Copying
 

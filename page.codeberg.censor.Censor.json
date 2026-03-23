@@ -1,7 +1,7 @@
 {
   "id": "page.codeberg.censor.Censor",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "censor",
   "finish-args": [
@@ -20,8 +20,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/censor/Censor.git",
-          "tag": "v0.5.0",
-          "commit": "75d19a043237bef9fadf697441e0510fb5f1fedd"
+          "tag": "v0.6.0",
+          "commit": "e15c797ac1cccc1634dafd149003266154343939"
         }
       ]
     },
