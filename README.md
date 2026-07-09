@@ -14,19 +14,23 @@ library with its python bindings from the [PyMuPDF][] module.
 
 ## Installing
 
-Get [Censor on Flathub][].
+Get [Censor on Flathub][] or from your
+[distribution package maintainers][Censor on Repology].
 
 [Censor on Flathub]: https://flathub.org/apps/page.codeberg.censor.Censor
+[Censor on Repology]: https://repology.org/project/censor-document-redaction/versions
 
 ## Contributing
 
 Use [GNOME Builder][] to develop and build Censor. Localize Censor using
 [Codeberg Translate][]. See the [Censor Contributing Guide][Contribute] for
-information on translation, testing, commit messages, releases, etc.
+information on translation, testing, commit messages, releases, etc. Please pay
+special attention to the rules for using [artificial intelligence][AI].
 
 [GNOME Builder]: https://apps.gnome.org/Builder
-[Contribute]: https://codeberg.org/censor/Censor/src/branch/main/CONTRIBUTING.md
 [Codeberg Translate]: https://translate.codeberg.org/engage/censor
+[Contribute]: https://codeberg.org/censor/Censor/src/branch/main/CONTRIBUTING.md
+[AI]: https://codeberg.org/censor/Censor/src/branch/main/AI.md
 
 ## Donating
 
