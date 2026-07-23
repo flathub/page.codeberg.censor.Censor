@@ -20,8 +20,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/censor/Censor.git",
-          "tag": "v0.9.0",
-          "commit": "25a4cb50c3f413ebaad4f0c2d28f763dbb9fc5bd"
+          "tag": "v0.9.1",
+          "commit": "f75d704a6d84b4b1c9a035365bba8d2edf6171db"
         }
       ]
     },
