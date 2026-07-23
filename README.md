@@ -22,13 +22,15 @@ Get [Censor on Flathub][] or from your
 
 ## Contributing
 
-Use [GNOME Builder][] to develop and build Censor. Localize Censor using
-[Codeberg Translate][]. See the [Censor Contributing Guide][Contribute] for
-information on translation, testing, commit messages, releases, etc. Please pay
-special attention to the rules for using [artificial intelligence][AI].
+You’re welcome to localize Censor using [Codeberg Translate][] and contribute
+to its development via pull requests! If you are missing a feature or you are
+annoyed by a bug, please [open an issue][Issues] and describe your problem and
+needs, first. See the [Censor Contributing Guide][Contribute] for more
+information on translation, development, testing, etc. Please pay special
+attention to the rules for using [artificial intelligence][AI].
 
-[GNOME Builder]: https://apps.gnome.org/Builder
 [Codeberg Translate]: https://translate.codeberg.org/engage/censor
+[Issues]: https://codeberg.org/censor/Censor/issues
 [Contribute]: https://codeberg.org/censor/Censor/src/branch/main/CONTRIBUTING.md
 [AI]: https://codeberg.org/censor/Censor/src/branch/main/AI.md
 
